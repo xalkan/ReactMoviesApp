@@ -21,7 +21,7 @@ Install all the dependencies
 
   
 
-npm install
+    npm install
 
   
 
@@ -29,6 +29,6 @@ Run the app on localhost:3000
 
   
 
-cd src
-
-npm start
+    cd src
+    
+    npm start
