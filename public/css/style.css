@@ -1,0 +1,47 @@
+* {
+	color: #d8d2c9 !important;
+}
+body {
+	margin-top: 30px;
+	background-color: #242525;
+}
+
+p {
+	color: #d8d2c9 !important;
+}
+
+img {
+	width: 100%;
+}
+
+
+
+/* The overlay effect with black background */
+
+  
+  .overlay input[type=text] {
+	padding: 15px;
+	font-size: 17px;
+	border: none;
+	float: left;
+	width: 80%;
+	background: #2e2f2f;
+  }
+  
+  .overlay input[type=text]:hover {
+	background: #363737;
+  }
+  
+  .overlay button {
+	float: left;
+	width: 20%;
+	padding: 15px;
+	background-color: #272928;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  .overlay button:hover {
+	background: #363737;
+  }

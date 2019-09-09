@@ -7,7 +7,7 @@ var Movie = React.createClass({
 
 		return (
 			<div className="well">
-				<div className="row">
+				<div className="row my-5">
 					<div className="col-md-4">
 						<img className="thumnail" src={this.props.movie.Poster} />
 					</div>

@@ -6,14 +6,18 @@ var SearchForm = React.createClass({
 
 	render: function () {
 		return(
-			<div className="search-form">
-				<h1 className="text-center">Search for a Movie</h1>
-				<form onSubmit={this.onSubmit}>
-					<div className="form-group">
-						<input type="text" className="form-control" ref="title" placeholder="Enter title" />
+			<div className="row">
+			<div className="mx-auto col-lg-10">
+
+				<div className="overlay">
+					<div className="overlay-content">
+						<form onSubmit={this.onSubmit}>
+							<input type="text" placeholder="Type a movie name.." ref="title"></input>
+							<button type="submit"><i className="fa fa-search">Search</i></button>
+						</form>
 					</div>
-					<button className="btn btn-primary btn-block">Search Movies</button>
-				</form>
+				</div>
+			</div>
 			</div>
 		)
 	},

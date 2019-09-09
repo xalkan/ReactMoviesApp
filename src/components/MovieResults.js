@@ -8,8 +8,8 @@ var MovieResults = React.createClass({
 
 	render: function () {
 		return(
-			<div className="">
-				<h3 className="text-center">Results</h3>
+			<div className="mx-auto col-lg-10">
+				
 				{
 					this.props.movies.map(function(movie, i) {
 						return (
