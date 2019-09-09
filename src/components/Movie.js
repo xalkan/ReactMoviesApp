@@ -13,15 +13,11 @@ var Movie = React.createClass({
 					</div>
 					<div className="col-md-8">
 						<h4>{this.props.movie.Title}</h4>
-						<ul className="list-group">
-							<li className="list-group-item">
-								Year: {this.props.movie.Year}
-							</li>
-							<li className="list-group-item">
-								IMDB ID: {this.props.movie.imdbID}
-							</li>
-						</ul>
-						<a className="btn btn-primary" href={link} target="_blank">View on IMDB</a>
+						
+								<p><b>Year:</b> {this.props.movie.Year} </p>
+								<p><b>IMDB ID:</b> {this.props.movie.imdbID} </p>
+						
+						<a className="btn btn-primary my-1" href={link} target="_blank">View on IMDB</a>
 					</div>
 				</div>
 			</div>
